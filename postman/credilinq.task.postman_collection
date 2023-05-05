@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "8a8af996-1875-4a05-847a-3bb137e1d814",
+		"name": "task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "addHeackCheckData",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "companyUEN",
+							"value": " 12",
+							"type": "text"
+						},
+						{
+							"key": "companyName",
+							"value": " abc",
+							"type": "text"
+						},
+						{
+							"key": "companyFullName",
+							"value": " xy",
+							"type": "text"
+						},
+						{
+							"key": "position",
+							"value": " sde",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": " hello@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "phoneNumber",
+							"value": " 9601191362",
+							"type": "text"
+						},
+						{
+							"key": "files",
+							"type": "file",
+							"src": [
+								"/C:/Users/pce13/Downloads/pdf.pdf",
+								"/C:/Users/pce13/Downloads/GraphQL.pdf"
+							]
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/uploadForm",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"uploadForm"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
